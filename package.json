@@ -1,0 +1,23 @@
+{
+  "name": "incnum",
+  "version": "1.0.0",
+  "description": "increment numbers in array. this can make multiple depth for-loop single.",
+  "main": "index.js",
+  "scripts": {
+    "make": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r22n/incnum.git"
+  },
+  "keywords": [
+    "increment",
+    "number"
+  ],
+  "author": "r22n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r22n/incnum/issues"
+  },
+  "homepage": "https://github.com/r22n/incnum#readme"
+}
