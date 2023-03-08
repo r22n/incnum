@@ -15,7 +15,7 @@ function next(current, ranges) {
 }
 exports.next = next;
 function seq(initial, ranges) {
-    if (ranges.some(x => x === 0)) {
+    if (!ranges.length || ranges.some(x => x === 0)) {
         return [];
     }
     const res = [];

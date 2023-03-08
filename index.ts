@@ -11,7 +11,7 @@ export function next(current: number[], ranges: number[]) {
 }
 
 export function seq(initial: number[], ranges: number[]) {
-    if (ranges.some(x => x === 0)) {
+    if (!ranges.length || ranges.some(x => x === 0)) {
         return [];
     }
     const res = [];
