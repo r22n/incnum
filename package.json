@@ -1,10 +1,10 @@
 {
   "name": "incnum",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "increment numbers in array. this can make multiple depth for-loop single.",
   "main": "index.js",
   "scripts": {
-    "make": "tsc",
+    "make": "tsc && webpack",
     "test": "jest"
   },
   "repository": {
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/r22n/incnum#readme",
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.5.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.1"
   }
 }
