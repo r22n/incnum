@@ -1,6 +1,6 @@
 {
   "name": "incnum",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "increment numbers in array. this can make multiple depth for-loop single.",
   "main": "index.js",
   "scripts": {
